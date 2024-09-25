@@ -8,11 +8,11 @@ public class Exercise02 {
 
         // TODO: ↓ Fórmula del área de un círculoS: a = radio * radio * Número PI
 
-        System.out.println("Area: " + a);
+        System.out.println("Area: " + Math.PI*r*r);
 
         // TODO: ↓ Fórmula de la longitud de una circunferencia: l = 2 * radio * Número PI
 
-        System.out.println("Longitud:  " + l);
+        System.out.println("Longitud:  " + 2*r*Math.PI);
 
     }
 }
